@@ -21,7 +21,7 @@ $ pip install -r requirements.txt
 
 ## Setup
 
-Any dataset containing images produced by copy-move forgery should do (with minimal adaptations). To replicate the results, you can download the same dataset used by [this paper](http://www.diid.unipa.it/cvip/pdf/ArdizzoneBrunoMazzola.pdf).
+To replicate the results, you can download the same dataset used by [this paper](http://www.diid.unipa.it/cvip/pdf/ArdizzoneBrunoMazzola.pdf). The files are available [here](http://www.diid.unipa.it/cvip/?page_id=48#CMFD) for download and should be extracted to the root directory of the repository. The tests were made using only the `Dataset 0` folder (the other folders may be deleted).
 
 ## Run
 
@@ -29,5 +29,5 @@ Run detection on images in `dataset` and output results to `out`:
 
 ```sh
 $ mkdir out
-$ python main.py dataset out
+$ python main.py dataset/Dataset\ 0/ out
 ```
