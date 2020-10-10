@@ -14,7 +14,6 @@ Installed using pip:
 - scikit-image
 - scipy
 - tqdm
-- ransac
 
 ```sh
 $ pip install -r requirements.txt
@@ -22,7 +21,7 @@ $ pip install -r requirements.txt
 
 ## Setup
 
-Any dataset containing images produced by copy-move forgery should do. To replicate my results, you can download the same dataset used by [this paper](http://www.diid.unipa.it/cvip/pdf/ArdizzoneBrunoMazzola.pdf).
+Any dataset containing images produced by copy-move forgery should do (with minimal adaptations). To replicate the results, you can download the same dataset used by [this paper](http://www.diid.unipa.it/cvip/pdf/ArdizzoneBrunoMazzola.pdf).
 
 ## Run
 
